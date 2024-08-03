@@ -35,13 +35,13 @@ pagination.on('afterMove', event => {
 
 function formSubmit(event) {
   event.preventDefault();
-    const inputValue = event.target.elements.query.value.trim();
-    if (inputValue === "") {
-        iziToast.warning({
-            message: "Enter search query";
-        })
-        return;
-    }
+  const inputValue = event.target.elements.query.value.trim();
+  if (inputValue === '') {
+    iziToast.warning({
+      message: 'Enter search query',
+    });
+    return;
+  }
 }
 
 form.addEventListener('submit', formSubmit);
