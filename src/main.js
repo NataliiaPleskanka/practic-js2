@@ -26,8 +26,8 @@ import './js/todolist';
 // Додай відображення дати і часу в реальному часі
 // <p class="date">Current data and time: <span></span></p>
 
-const newDate = new Date();
-const time = document.querySelector('.date span');
-time.textContent = newDate.toLocaleString();
+// const newDate = new Date();
+// const time = document.querySelector('.date span');
+// time.textContent = newDate.toLocaleString();
 
-setInterval(() => (time.textContent = new Date().toLocaleString()), 1000);
+// setInterval(() => (time.textContent = new Date().toLocaleString()), 1000);
